@@ -5,23 +5,13 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-using Prism.DryIoc;
-using DryIoc;
-using Prism.Logging;
 
-namespace PUMA_WPF
+namespace View_Models
 {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
     public partial class App : Application
     {
-        protected override void OnStartup(StartupEventArgs e)
-        {
-            base.OnStartup(e);
-
-            var bootstrapper = new Bootstrapper();
-            bootstrapper.Run();
-        }
     }
 }
