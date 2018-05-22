@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PUMA-WPF", "PUMA-WPF\PUMA-W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Views", "Views\Views.csproj", "{CBD4DAEF-2F10-412C-BF63-B3778708EDE2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PumaWpf Common", "PumaWpf Common", "{3F30D438-5BBC-4EBF-934F-A541251BBC86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumaWpf.Infrastructure", "PumaWpf.Infrastructure\PumaWpf.Infrastructure.csproj", "{A7425CA5-6866-4453-9815-9780AB757704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PumaWpf.Modules.Survey", "PumaWpf.Modules.Survey\PumaWpf.Modules.Survey.csproj", "{B9713766-3172-4140-BE80-40F3D68214BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{A258B531-50DF-4FA9-BD1A-B702E036D1C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +29,21 @@ Global
 		{CBD4DAEF-2F10-412C-BF63-B3778708EDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBD4DAEF-2F10-412C-BF63-B3778708EDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBD4DAEF-2F10-412C-BF63-B3778708EDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7425CA5-6866-4453-9815-9780AB757704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7425CA5-6866-4453-9815-9780AB757704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7425CA5-6866-4453-9815-9780AB757704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7425CA5-6866-4453-9815-9780AB757704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9713766-3172-4140-BE80-40F3D68214BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9713766-3172-4140-BE80-40F3D68214BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9713766-3172-4140-BE80-40F3D68214BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9713766-3172-4140-BE80-40F3D68214BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7425CA5-6866-4453-9815-9780AB757704} = {3F30D438-5BBC-4EBF-934F-A541251BBC86}
+		{B9713766-3172-4140-BE80-40F3D68214BF} = {A258B531-50DF-4FA9-BD1A-B702E036D1C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDB498F3-3898-486D-89C6-54AC94D2C3B5}
