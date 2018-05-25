@@ -6,9 +6,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using ReactiveUI;
-using PUMA_WPF.Models;
+using PumaWpf.Models;
 
-namespace PUMA_WPF.ViewModels
+namespace PumaWpf.ViewModels
 {
     public class SurveyViewModel : ReactiveObject
     {

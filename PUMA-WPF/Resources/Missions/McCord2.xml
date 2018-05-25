@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MissionCreatorObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="McCord">
+  <Surveys>
+    <MissionCreatorSurvey>
+      <SurveyName xsi:type="xsd:string">Survey 0</SurveyName>
+      <AnalyzerAssign xsi:type="xsd:int">0</AnalyzerAssign>
+      <LastAzimuth xsi:type="xsd:string">0</LastAzimuth>
+      <RevolutionsCompleted xsi:type="xsd:string">0</RevolutionsCompleted>
+      <Scans>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Low</ScanName>
+          <StartFrequency xsi:type="xsd:string">0.3</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">1</StopFrequency>
+          <RBW xsi:type="xsd:string">0.003</RBW>
+          <VBW xsi:type="xsd:string">0.003</VBW>
+          <SweepPoints xsi:type="xsd:string">2001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">20</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">0</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches />
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">SAS551_PassiveMono.ant</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">C:\_TDY Data Archive\March\Path Loss - Jan.18.2017.03.58\LHB.csv</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Low2</ScanName>
+          <StartFrequency xsi:type="xsd:string">1</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">30</StopFrequency>
+          <RBW xsi:type="xsd:string">0.03</RBW>
+          <VBW xsi:type="xsd:string">0.03</VBW>
+          <SweepPoints xsi:type="xsd:string">2001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">20</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">0</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches />
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">SAS551_PassiveMono.ant</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">C:\_TDY Data Archive\March\Path Loss - Jan.18.2017.03.58\LHB.csv</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Bicon</ScanName>
+          <StartFrequency xsi:type="xsd:string">30</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">1000</StopFrequency>
+          <RBW xsi:type="xsd:string">1</RBW>
+          <VBW xsi:type="xsd:string">1</VBW>
+          <SweepPoints xsi:type="xsd:string">2001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">20</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches />
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">AH_Bicon_Large_Elements.ant</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">C:\_TDY Data Archive\March\Path Loss - Jan.18.2017.03.58\BHB.csv</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">QOM</ScanName>
+          <StartFrequency xsi:type="xsd:string">800</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">18000</StopFrequency>
+          <RBW xsi:type="xsd:string">5</RBW>
+          <VBW xsi:type="xsd:string">5</VBW>
+          <SweepPoints xsi:type="xsd:string">4001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">5</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches />
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">QOM_800_40000.ant</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">C:\_TDY Data Archive\March\Path Loss - Jan.18.2017.03.58\QHB.csv</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+      </Scans>
+      <Positioners>
+        <MissionCreatorPositioner>
+          <Assign xsi:type="xsd:int">0</Assign>
+          <AzStart>0</AzStart>
+          <AzStop>360</AzStop>
+          <AzIntStep>30</AzIntStep>
+          <AzStep>1</AzStep>
+          <ElStart>0</ElStart>
+          <ElStop>0</ElStop>
+          <ElIntStep>30</ElIntStep>
+          <ElStep>1</ElStep>
+          <CableWrap>false</CableWrap>
+          <IgnElParam>true</IgnElParam>
+        </MissionCreatorPositioner>
+      </Positioners>
+    </MissionCreatorSurvey>
+  </Surveys>
+</MissionCreatorObject>

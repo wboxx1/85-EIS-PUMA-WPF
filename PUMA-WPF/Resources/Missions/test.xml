@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MissionCreatorObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="test">
+  <Surveys>
+    <MissionCreatorSurvey>
+      <SurveyName xsi:type="xsd:string">Add Survey Name</SurveyName>
+      <AnalyzerAssign xsi:type="xsd:int">0</AnalyzerAssign>
+      <LastAzimuth xsi:type="xsd:string">0</LastAzimuth>
+      <RevolutionsCompleted xsi:type="xsd:string">0</RevolutionsCompleted>
+      <Scans>
+        <MissionCreatorScan>
+          <ScanName>Scan</ScanName>
+          <StartFrequency>1</StartFrequency>
+          <StopFrequency>1000</StopFrequency>
+          <RBW>3</RBW>
+          <VBW>3</VBW>
+          <SweepPoints>8001</SweepPoints>
+          <AutoSweepTime>true</AutoSweepTime>
+          <SweepTime>10</SweepTime>
+          <SingleSweepMode>true</SingleSweepMode>
+          <NumberSweeps>20</NumberSweeps>
+          <DwellTime>20</DwellTime>
+          <CouplingType>DC</CouplingType>
+          <PreAmpStatus>isOn</PreAmpStatus>
+          <Attenuation>0</Attenuation>
+          <AutoAttenuation>true</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches />
+          <Active>true</Active>
+          <ReferenceLevel>0</ReferenceLevel>
+          <AntennaOffset>0</AntennaOffset>
+          <AntennaFile>null</AntennaFile>
+          <CableCalFile>null</CableCalFile>
+          <LaunchSeparatePlot>true</LaunchSeparatePlot>
+          <GrabScreenShot>true</GrabScreenShot>
+        </MissionCreatorScan>
+      </Scans>
+      <Positioners />
+    </MissionCreatorSurvey>
+  </Surveys>
+</MissionCreatorObject>

@@ -13,11 +13,11 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using PUMA_WPF.Models;
-using PUMA_WPF.ViewModels;
+using PumaWpf.Models;
+using PumaWpf.ViewModels;
 using Xceed.Wpf.AvalonDock.Layout;
 
-namespace PUMA_WPF.Views
+namespace PumaWpf.Views
 {
     /// <summary>
     /// Interaction logic for Test.xaml

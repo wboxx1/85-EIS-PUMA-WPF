@@ -9,12 +9,13 @@ using Prism.Logging;
 using Prism.DryIoc;
 using DryIoc;
 using Prism.Mvvm;
-using PUMA_WPF.View_Models;
+using PumaWpf.ViewModels;
 using PumaWpf.Modules.Survey;
 using PumaWpf.Modules.Survey.ViewModels;
 using PumaWpf.Modules.Survey.Views;
+using PumaWpf.Views;
 
-namespace PUMA_WPF
+namespace PumaWpf
 {
     class Bootstrapper : DryIocBootstrapper
     {
@@ -50,7 +51,12 @@ namespace PUMA_WPF
         {
             var moduleCatalog = (ModuleCatalog)ModuleCatalog;
             //moduleCatalog.AddModule(typeof(YOUR_MODULE));
-            moduleCatalog.AddModule(typeof(SurveyModule));
+            moduleCatalog.AddModule(
+                new ModuleInfo()
+                {
+                    ModuleName = typeof(SurveyModule).Name,
+                    ModuleType = typeof(SurveyModule).AssemblyQualifiedName
+                });
         }
         
         protected override ILoggerFacade CreateLogger()

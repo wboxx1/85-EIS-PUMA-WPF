@@ -6,6 +6,7 @@ using System;
 using DryIoc;
 using Prism.DryIoc;
 using PumaWpf.Modules.Survey.Events;
+using PumaWpf.Infrastructure.Constants;
 using System.Collections.Generic;
 
 namespace PumaWpf.Modules.Survey
@@ -26,20 +27,29 @@ namespace PumaWpf.Modules.Survey
 
         public void Initialize()
         {
-            _container.RegisterTypeForNavigation<NewSurveyView>();
             _container.RegisterTypeForNavigation<SurveyActionView>();
         }
 
         private void LoadViews(object payload)
         {
             // Header Region
+            var regionInstance = _regionManager.Regions[RegionNames.HeaderRegion];
+            ClearRegion(regionInstance);
 
             // Action Region
-            var surveyActionViewInstance = new SurveyActionView();
-            var regionInstance = _regionManager.Regions["ActionRegion"];
+            regionInstance = _regionManager.Regions[RegionNames.ActionRegion];
             ClearRegion(regionInstance);
+            var surveyActionViewInstance = new SurveyActionView();
             regionInstance.Add(surveyActionViewInstance,"SurveyModule.SurveyActionView");
             regionInstance.Activate(regionInstance.GetView("SurveyModule.SurveyActionView"));
+
+            // Plot Region
+            regionInstance = _regionManager.Regions[RegionNames.PlotRegion];
+            ClearRegion(regionInstance);
+
+            // Equipment Region
+            regionInstance = _regionManager.Regions[RegionNames.EquipmentRegion];
+            ClearRegion(regionInstance);
         }
         
         public static void ClearRegion(IRegion region)

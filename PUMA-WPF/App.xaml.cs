@@ -9,7 +9,7 @@ using Prism.DryIoc;
 using DryIoc;
 using Prism.Logging;
 
-namespace PUMA_WPF
+namespace PumaWpf
 {
     /// <summary>
     /// Interaction logic for App.xaml

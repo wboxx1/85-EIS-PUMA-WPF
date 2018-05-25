@@ -1,0 +1,2248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MissionCreatorObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="March">
+  <Surveys>
+    <MissionCreatorSurvey>
+      <SurveyName xsi:type="xsd:string">EMC</SurveyName>
+      <AnalyzerAssign xsi:type="xsd:int">0</AnalyzerAssign>
+      <LastAzimuth xsi:type="xsd:string">0</LastAzimuth>
+      <RevolutionsCompleted xsi:type="xsd:string">0</RevolutionsCompleted>
+      <Scans>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Loop H Low</ScanName>
+          <StartFrequency xsi:type="xsd:string">0.03</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">1</StopFrequency>
+          <RBW xsi:type="xsd:string">0.003</RBW>
+          <VBW xsi:type="xsd:string">0.003</VBW>
+          <SweepPoints xsi:type="xsd:string">1001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">1</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">0</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>0</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>0</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Loop H High</ScanName>
+          <StartFrequency xsi:type="xsd:string">1</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">30</StopFrequency>
+          <RBW xsi:type="xsd:string">0.02</RBW>
+          <VBW xsi:type="xsd:string">0.02</VBW>
+          <SweepPoints xsi:type="xsd:string">1001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">20</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">0</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>0</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>0</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Bicon V NB</ScanName>
+          <StartFrequency xsi:type="xsd:string">30</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">1000</StopFrequency>
+          <RBW xsi:type="xsd:string">1</RBW>
+          <VBW xsi:type="xsd:string">1</VBW>
+          <SweepPoints xsi:type="xsd:string">1001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">20</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>2</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Bicon H NB</ScanName>
+          <StartFrequency xsi:type="xsd:string">30</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">1000</StopFrequency>
+          <RBW xsi:type="xsd:string">1</RBW>
+          <VBW xsi:type="xsd:string">1</VBW>
+          <SweepPoints xsi:type="xsd:string">1001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">20</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>1</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>0</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">QOM V NB</ScanName>
+          <StartFrequency xsi:type="xsd:string">800</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">18000</StopFrequency>
+          <RBW xsi:type="xsd:string">3</RBW>
+          <VBW xsi:type="xsd:string">3</VBW>
+          <SweepPoints xsi:type="xsd:string">8001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">10</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">QOM H NB</ScanName>
+          <StartFrequency xsi:type="xsd:string">800</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">18000</StopFrequency>
+          <RBW xsi:type="xsd:string">3</RBW>
+          <VBW xsi:type="xsd:string">3</VBW>
+          <SweepPoints xsi:type="xsd:string">8001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">10</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>2</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>0</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Radars1</ScanName>
+          <StartFrequency xsi:type="xsd:string">900</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">1250</StopFrequency>
+          <RBW xsi:type="xsd:string">8</RBW>
+          <VBW xsi:type="xsd:string">8</VBW>
+          <SweepPoints xsi:type="xsd:string">401</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">100</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>4</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Radars2</ScanName>
+          <StartFrequency xsi:type="xsd:string">2700</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">2900</StopFrequency>
+          <RBW xsi:type="xsd:string">8</RBW>
+          <VBW xsi:type="xsd:string">8</VBW>
+          <SweepPoints xsi:type="xsd:string">301</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">100</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>4</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Interference</ScanName>
+          <StartFrequency xsi:type="xsd:string">5000</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">6000</StopFrequency>
+          <RBW xsi:type="xsd:string">20</RBW>
+          <VBW xsi:type="xsd:string">20</VBW>
+          <SweepPoints xsi:type="xsd:string">101</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">100</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">QOM V</ScanName>
+          <StartFrequency xsi:type="xsd:string">800</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">18000</StopFrequency>
+          <RBW xsi:type="xsd:string">8</RBW>
+          <VBW xsi:type="xsd:string">8</VBW>
+          <SweepPoints xsi:type="xsd:string">3001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">20</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">QOM H</ScanName>
+          <StartFrequency xsi:type="xsd:string">800</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">18000</StopFrequency>
+          <RBW xsi:type="xsd:string">8</RBW>
+          <VBW xsi:type="xsd:string">8</VBW>
+          <SweepPoints xsi:type="xsd:string">3001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">20</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>2</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>0</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Bicon V</ScanName>
+          <StartFrequency xsi:type="xsd:string">30</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">1000</StopFrequency>
+          <RBW xsi:type="xsd:string">8</RBW>
+          <VBW xsi:type="xsd:string">8</VBW>
+          <SweepPoints xsi:type="xsd:string">201</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">100</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>2</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Bicon H</ScanName>
+          <StartFrequency xsi:type="xsd:string">30</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">1000</StopFrequency>
+          <RBW xsi:type="xsd:string">8</RBW>
+          <VBW xsi:type="xsd:string">8</VBW>
+          <SweepPoints xsi:type="xsd:string">201</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">100</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Mono</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>1</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>0</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Loop V Low</ScanName>
+          <StartFrequency xsi:type="xsd:string">0.03</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">1</StopFrequency>
+          <RBW xsi:type="xsd:string">0.003</RBW>
+          <VBW xsi:type="xsd:string">0.003</VBW>
+          <SweepPoints xsi:type="xsd:string">1001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">1</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">0</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>1</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+        <MissionCreatorScan>
+          <ScanName xsi:type="xsd:string">Loop V High</ScanName>
+          <StartFrequency xsi:type="xsd:string">1</StartFrequency>
+          <StopFrequency xsi:type="xsd:string">30</StopFrequency>
+          <RBW xsi:type="xsd:string">0.02</RBW>
+          <VBW xsi:type="xsd:string">0.02</VBW>
+          <SweepPoints xsi:type="xsd:string">1001</SweepPoints>
+          <AutoSweepTime xsi:type="xsd:boolean">true</AutoSweepTime>
+          <SweepTime xsi:type="xsd:string">10</SweepTime>
+          <SingleSweepMode xsi:type="xsd:boolean">true</SingleSweepMode>
+          <NumberSweeps xsi:type="xsd:string">20</NumberSweeps>
+          <DwellTime xsi:type="xsd:string">20</DwellTime>
+          <CouplingType xsi:type="xsd:int">0</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation xsi:type="xsd:string">0</Attenuation>
+          <AutoAttenuation xsi:type="xsd:boolean">true</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">1</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">0</ID>
+              <Name xsi:type="xsd:string">Switch0</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">QOM H</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>3</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">1</ID>
+              <Name xsi:type="xsd:string">Switch1</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Antenna Selector 2</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Switch0</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Loop V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bicon V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Qom V</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don't Care</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Don'tCare</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>1</PositionSelect>
+            </HardwareConfigSwitch>
+            <HardwareConfigSwitch>
+              <ID xsi:type="xsd:string">2</ID>
+              <Name xsi:type="xsd:string">Switch2</Name>
+              <Type xsi:type="xsd:int">0</Type>
+              <Assignment xsi:type="xsd:string">Bypass or Filter</Assignment>
+              <Positions>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">0</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">1</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">2</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">3</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">DC</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">4</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Bypass</PositionAlias>
+                </HardwareConfigPosition>
+                <HardwareConfigPosition>
+                  <DriveLine xsi:type="xsd:int">5</DriveLine>
+                  <PositionAlias xsi:type="xsd:string">Filter</PositionAlias>
+                </HardwareConfigPosition>
+              </Positions>
+              <PositionSelect>5</PositionSelect>
+            </HardwareConfigSwitch>
+          </Switches>
+          <Active xsi:type="xsd:boolean">true</Active>
+          <ReferenceLevel xsi:type="xsd:string">0</ReferenceLevel>
+          <AntennaOffset xsi:type="xsd:string">0</AntennaOffset>
+          <AntennaFile xsi:type="xsd:string">null</AntennaFile>
+          <CableCalFile xsi:type="xsd:string">null</CableCalFile>
+          <LaunchSeparatePlot xsi:type="xsd:boolean">false</LaunchSeparatePlot>
+          <GrabScreenShot xsi:type="xsd:boolean">false</GrabScreenShot>
+        </MissionCreatorScan>
+      </Scans>
+      <Positioners>
+        <MissionCreatorPositioner>
+          <Assign xsi:type="xsd:int">0</Assign>
+          <AzStart>0</AzStart>
+          <AzStop>180</AzStop>
+          <AzIntStep>90</AzIntStep>
+          <AzStep>90</AzStep>
+          <ElStart>0</ElStart>
+          <ElStop>0</ElStop>
+          <ElIntStep>30</ElIntStep>
+          <ElStep>1</ElStep>
+          <CableWrap>false</CableWrap>
+          <IgnElParam>true</IgnElParam>
+        </MissionCreatorPositioner>
+      </Positioners>
+    </MissionCreatorSurvey>
+  </Surveys>
+</MissionCreatorObject>

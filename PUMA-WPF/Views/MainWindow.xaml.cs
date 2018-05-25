@@ -13,14 +13,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using PUMA_WPF.Models;
+using PumaWpf.Models;
 using Xceed.Wpf.AvalonDock.Layout;
 using DryIoc;
 
 using System.ComponentModel.Composition;
-using PUMA_WPF.View_Models;
+using PumaWpf.ViewModels;
 
-namespace PUMA_WPF
+namespace PumaWpf.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

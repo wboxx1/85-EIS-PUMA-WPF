@@ -1,7 +1,7 @@
 ﻿using Prism.Logging;
 using NLog;
 
-namespace PUMA_WPF
+namespace PumaWpf
 {
     class Nlogger : ILoggerFacade
     {

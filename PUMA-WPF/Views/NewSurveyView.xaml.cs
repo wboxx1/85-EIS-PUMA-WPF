@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace PumaWpf.Modules.Survey.Views
+namespace PumaWpf.Views
 {
     /// <summary>
     /// Interaction logic for ViewA.xaml
@@ -23,6 +23,6 @@ namespace PumaWpf.Modules.Survey.Views
         public NewSurveyView()
         {
             InitializeComponent();
-        }
+        }               
     }
 }

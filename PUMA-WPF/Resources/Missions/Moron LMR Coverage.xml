@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MissionCreatorObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="Moron LMR Coverage ">
+  <Surveys>
+    <MissionCreatorSurvey>
+      <SurveyName xsi:type="xsd:string">Add Survey Name</SurveyName>
+      <AnalyzerAssign xsi:type="xsd:int">0</AnalyzerAssign>
+      <LastAzimuth xsi:type="xsd:string">0</LastAzimuth>
+      <RevolutionsCompleted xsi:type="xsd:string">0</RevolutionsCompleted>
+      <Scans>
+        <MissionCreatorScan>
+          <ScanName>Scan</ScanName>
+          <StartFrequency>158.02</StartFrequency>
+          <StopFrequency>158.18</StopFrequency>
+          <RBW>.002</RBW>
+          <VBW>.002</VBW>
+          <SweepPoints>1001</SweepPoints>
+          <AutoSweepTime>true</AutoSweepTime>
+          <SweepTime>10</SweepTime>
+          <SingleSweepMode>true</SingleSweepMode>
+          <NumberSweeps>1</NumberSweeps>
+          <DwellTime>20</DwellTime>
+          <CouplingType xsi:type="xsd:int">1</CouplingType>
+          <PreAmpStatus xsi:type="xsd:int">0</PreAmpStatus>
+          <Attenuation>0</Attenuation>
+          <AutoAttenuation>false</AutoAttenuation>
+          <Traces>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">1</TraceType>
+              <DownloadState xsi:type="xsd:boolean">false</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+            <MissionCreatorTrace>
+              <TraceName xsi:type="xsd:string">Trace</TraceName>
+              <DetectorType xsi:type="xsd:int">0</DetectorType>
+              <TraceType xsi:type="xsd:int">0</TraceType>
+              <DownloadState xsi:type="xsd:boolean">true</DownloadState>
+              <ClearState xsi:type="xsd:boolean">false</ClearState>
+            </MissionCreatorTrace>
+          </Traces>
+          <Switches />
+          <Active>true</Active>
+          <ReferenceLevel>-20</ReferenceLevel>
+          <AntennaOffset>0</AntennaOffset>
+          <AntennaFile>null</AntennaFile>
+          <CableCalFile>null</CableCalFile>
+          <LaunchSeparatePlot>false</LaunchSeparatePlot>
+          <GrabScreenShot>false</GrabScreenShot>
+        </MissionCreatorScan>
+      </Scans>
+      <Positioners />
+    </MissionCreatorSurvey>
+  </Surveys>
+</MissionCreatorObject>

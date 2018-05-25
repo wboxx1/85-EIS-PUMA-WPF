@@ -64,11 +64,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ViewModels\NewSurveyViewModel.cs" />
     <Compile Include="ViewModels\SurveyActionViewModel.cs" />
-    <Compile Include="Views\NewSurveyView.xaml.cs">
-      <DependentUpon>NewSurveyView.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Views\SurveyActionView.xaml.cs">
       <DependentUpon>SurveyActionView.xaml</DependentUpon>
     </Compile>
@@ -89,10 +85,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Views\NewSurveyView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="Views\SurveyActionView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
